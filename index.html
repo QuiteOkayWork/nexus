@@ -1,0 +1,1090 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NEXUS turns fragmented business signals into clear, evidence-backed decisions."
+    />
+    <meta name="theme-color" content="#05080d" />
+    <title>NEXUS — AI Decision Intelligence</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="cursor-light" aria-hidden="true"></div>
+
+    <header class="site-header" data-header>
+      <a class="wordmark" href="#top" aria-label="NEXUS home"
+        >NEXUS<span class="wordmark__dot"></span
+      ></a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#overview">Overview</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#signals">Signals</a>
+        <a href="#process">Intelligence</a>
+        <a href="#scenarios">Scenarios</a>
+        <a href="#decisions">Decisions</a>
+        <a href="#product-experience">Product</a>
+      </nav>
+      <a class="text-link header-cta" href="#product-experience"
+        >Enter platform <span>↗</span></a
+      >
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+      >
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero section-grid" id="overview">
+        <div class="hero__ambient" aria-hidden="true"></div>
+        <div class="hero__intro reveal">
+          <p class="eyebrow">OVERVIEW <span>/ 01</span></p>
+          <h1>Make the next move with evidence.</h1>
+          <p class="lede">
+            NEXUS turns fragmented business signals into clear, defensible
+            decisions before the window to act closes.
+          </p>
+          <p class="body-muted">
+            Ask a business question, surface the strongest path, and understand
+            the evidence, confidence, and uncertainty behind the recommendation.
+          </p>
+          <form class="hero-query" data-hero-query>
+            <label for="hero-question">WHAT ARE YOU DECIDING?</label>
+            <div class="hero-query__surface">
+              <input
+                id="hero-question"
+                name="question"
+                type="text"
+                aria-describedby="hero-query-note hero-query-state"
+                placeholder="Ask anything..."
+              />
+              <button type="submit">Ask NEXUS <span>→</span></button>
+            </div>
+            <div class="hero-query__meta">
+              <small id="hero-query-note"
+                >Demo interaction only. Full decision workspace in production platform.</small
+              >
+              <output id="hero-query-state" data-hero-query-state aria-live="polite"
+                >DECISION STATE / READY</output
+              >
+            </div>
+          </form>
+        </div>
+
+        <div class="nexus-orbit reveal" data-nexus-orbit>
+          <div class="nexus-orbit__frame">
+            <svg viewBox="0 0 600 600" role="img" aria-labelledby="orbit-title orbit-desc">
+              <title id="orbit-title">NEXUS orbital intelligence core</title>
+              <desc id="orbit-desc">Concentric analytical rings and decision nodes surrounding the NEXUS core.</desc>
+              <defs>
+                <filter id="orbitGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="8" /></filter>
+              </defs>
+              <g class="orbit-guides">
+                <circle cx="300" cy="300" r="236" /><circle cx="300" cy="300" r="182" />
+                <path d="M64 300H536M300 64V536M133 133L467 467M467 133L133 467" />
+              </g>
+              <g class="orbit-ring orbit-ring--outer">
+                <circle cx="300" cy="300" r="218" /><path d="M300 82v16M300 502v16M82 300h16M502 300h16" />
+                <circle class="orbit-node" cx="300" cy="82" r="4" /><circle class="orbit-node orbit-node--quiet" cx="508" cy="366" r="3" />
+              </g>
+              <g class="orbit-ring orbit-ring--mid-a">
+                <circle cx="300" cy="300" r="178" stroke-dasharray="4 12" /><path d="M155 196A178 178 0 0 1 445 196" />
+                <circle class="orbit-node" cx="155" cy="196" r="4" />
+              </g>
+              <g class="orbit-ring orbit-ring--mid-b">
+                <circle cx="300" cy="300" r="137" /><path d="M184 373A137 137 0 0 0 416 373" stroke-dasharray="2 9" />
+                <circle class="orbit-node" cx="416" cy="373" r="3.5" />
+              </g>
+              <g class="orbit-ring orbit-ring--inner">
+                <circle cx="300" cy="300" r="102" stroke-dasharray="28 8 3 8" /><circle class="orbit-node" cx="231" cy="225" r="3" />
+              </g>
+              <g class="orbit-relations">
+                <path d="M231 225L300 300L416 373M155 196L300 300L508 366" />
+                <circle cx="231" cy="225" r="8" /><circle cx="416" cy="373" r="8" />
+              </g>
+              <circle class="orbit-core-glow" cx="300" cy="300" r="98" />
+              <circle class="orbit-core" cx="300" cy="300" r="82" />
+              <circle class="orbit-core__ring" cx="300" cy="300" r="54" />
+              <circle class="orbit-core__point" cx="300" cy="300" r="5" />
+              <text class="orbit-core__label" x="300" y="280">NEXUS CORE</text>
+            </svg>
+          </div>
+        </div>
+
+        <div class="hero__index mono">
+          <span>QUESTION / EVIDENCE / DECISION</span><span>SCROLL TO ENTER SYSTEM</span>
+        </div>
+      </section>
+
+      <section class="report section-grid" id="intelligence">
+        <div class="section-intro reveal">
+          <p class="eyebrow">SIGNAL REPORT <span>/ 02</span></p>
+          <h2>More data does not create better decisions.</h2>
+          <p>
+            Businesses already have dashboards, reports, forecasts, research,
+            and AI tools. The challenge is understanding what deserves
+            attention, what is connected, and what should happen next.
+          </p>
+        </div>
+        <div class="report-grid">
+          <article class="report-metric report-metric--lead reveal">
+            <span class="cell-index">01</span><strong data-count="17">0</strong>
+            <p>Signals changed<br />this week</p>
+            <div class="signal-orbit" aria-hidden="true">
+              <i></i><i></i><i></i>
+            </div>
+          </article>
+          <article class="report-metric reveal">
+            <span class="cell-index">02</span><strong data-count="4">0</strong>
+            <p>Require attention</p>
+          </article>
+          <div class="report-note reveal">
+            <p>
+              NEXUS continuously evaluates these signals and turns them into
+              decision-ready intelligence.
+            </p>
+            <span class="mono">LIVE ANALYSIS / ACTIVE</span>
+          </div>
+          <article class="report-metric reveal">
+            <span class="cell-index">03</span><strong data-count="2">0</strong>
+            <p>Decisions recommended</p>
+          </article>
+          <article class="report-metric report-metric--risk reveal">
+            <span class="cell-index">04</span><strong data-count="1">0</strong>
+            <p>Material risk detected</p>
+            <i class="corner-light"></i>
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="decision-workflow"
+        id="workflow"
+        aria-labelledby="workflow-title"
+      >
+        <div class="workflow-sticky">
+          <div class="workflow-grid" aria-hidden="true"></div>
+          <div class="workflow-light" aria-hidden="true"></div>
+
+          <header class="workflow-intro">
+            <p class="eyebrow">DECISION WORKFLOW <span>/ 03</span></p>
+            <h2 id="workflow-title">From question to outcome.</h2>
+            <p>
+              NEXUS turns a business question into an evidence-backed decision
+              through five connected stages.
+            </p>
+          </header>
+
+          <div class="workflow-annotations mono" aria-hidden="true">
+            <span>PROCESS / NX-05</span>
+            <span>MODEL STATE / ACTIVE</span>
+            <span>DECISION LOOP / 01-05</span>
+          </div>
+
+          <div class="workflow-stage-area" aria-live="polite">
+            <article class="workflow-stage is-active" data-workflow-stage="0">
+              <p class="workflow-stage__label">01 / DEFINE</p>
+              <h3>Start with the decision.</h3>
+              <p class="workflow-stage__body">
+                The process begins with what the business actually needs to
+                decide &mdash; not with another dashboard.
+              </p>
+              <p class="workflow-question">
+                Should we expand into Germany this year?
+              </p>
+              <dl class="workflow-meta">
+                <div><dt>DECISION</dt><dd>EXPANSION</dd></div>
+                <div><dt>OWNER</dt><dd>STRATEGY</dd></div>
+                <div><dt>HORIZON</dt><dd>12 MONTHS</dd></div>
+              </dl>
+            </article>
+
+            <article class="workflow-stage" data-workflow-stage="1" aria-hidden="true">
+              <p class="workflow-stage__label">02 / GATHER</p>
+              <h3>Bring the evidence together.</h3>
+              <p class="workflow-stage__body">
+                NEXUS assembles the signals that could materially affect the
+                decision.
+              </p>
+              <div class="workflow-evidence mono">
+                <span>MARKET</span><span>CUSTOMER</span><span>FINANCIAL</span
+                ><span>OPERATIONS</span><span>COMPETITION</span>
+              </div>
+              <dl class="workflow-metrics">
+                <div><dd data-workflow-value="17">17</dd><dt>RELEVANT SIGNALS</dt></div>
+                <div><dd data-workflow-value="11">11</dd><dt>EVIDENCE SOURCES</dt></div>
+              </dl>
+            </article>
+
+            <article class="workflow-stage" data-workflow-stage="2" aria-hidden="true">
+              <p class="workflow-stage__label">03 / EVALUATE</p>
+              <h3>Test the possible paths.</h3>
+              <p class="workflow-stage__body">
+                NEXUS evaluates possible actions against expected upside,
+                downside exposure, uncertainty, and operational constraints.
+              </p>
+              <div class="workflow-options mono">
+                <span>01 / EXPAND NOW</span><span>02 / RUN A PILOT</span
+                ><span>03 / DELAY</span>
+              </div>
+              <dl class="workflow-metrics workflow-metrics--three">
+                <div><dd data-workflow-value="3">3</dd><dt>SCENARIOS MODELLED</dt></div>
+                <div><dd data-workflow-value="12">12</dd><dt>SIGNALS EVALUATED</dt></div>
+                <div><dd data-workflow-value="5">5</dd><dt>UNCERTAINTIES</dt></div>
+              </dl>
+            </article>
+
+            <article class="workflow-stage" data-workflow-stage="3" aria-hidden="true">
+              <p class="workflow-stage__label">04 / DECIDE</p>
+              <h3>Surface the strongest move.</h3>
+              <p class="workflow-stage__body">
+                NEXUS weighs the available evidence and identifies the strongest
+                risk-adjusted course of action.
+              </p>
+              <div class="workflow-decision">
+                <p>Delay full expansion by two quarters.</p>
+                <div><strong data-workflow-value="76">76</strong><span>%</span><small>Decision confidence</small></div>
+              </div>
+              <div class="workflow-factors mono">
+                <span>POSITIVE DEMAND</span><span>COST UNCERTAINTY</span
+                ><span>PARTIAL READINESS</span>
+              </div>
+            </article>
+
+            <article class="workflow-stage" data-workflow-stage="4" aria-hidden="true">
+              <p class="workflow-stage__label">05 / LEARN</p>
+              <h3>Measure what happened next.</h3>
+              <p class="workflow-stage__body">
+                NEXUS tracks the decision against the actual outcome and carries
+                that evidence into future decisions.
+              </p>
+              <div class="workflow-outcome">
+                <div><span>EXPECTED</span><strong>+9.4%</strong></div>
+                <div><span>ACTUAL</span><strong>+11.1%</strong></div>
+                <p>OUTCOME / OUTPERFORMED</p>
+              </div>
+              <p class="workflow-final-line">
+                Every outcome becomes evidence for the next decision.
+              </p>
+            </article>
+          </div>
+
+          <div class="workflow-orbit" aria-hidden="true">
+            <svg viewBox="0 0 1600 900" preserveAspectRatio="none">
+              <defs>
+                <linearGradient id="workflowProgress" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0" stop-color="#376f94" />
+                  <stop offset=".55" stop-color="#61baf0" />
+                  <stop offset="1" stop-color="#a2dcfa" />
+                </linearGradient>
+              </defs>
+              <path
+                class="workflow-path workflow-path--base"
+                d="M40 875 A760 580 0 0 1 1560 875"
+              />
+              <path
+                class="workflow-path workflow-path--progress"
+                d="M40 875 A760 580 0 0 1 1560 875"
+              />
+              <g class="workflow-markers"></g>
+              <g class="workflow-node">
+                <circle class="workflow-node__ring" r="9" />
+                <circle class="workflow-node__core" r="3.2" />
+                <text x="0" y="-18">01</text>
+              </g>
+            </svg>
+          </div>
+
+          <div class="workflow-status mono">
+            <span>WORKFLOW / ACTIVE</span><span data-workflow-status>01 / DEFINE</span
+            ><span>CONTEXT / LIVE</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="signals section-grid" id="signals">
+        <div class="section-title reveal">
+          <p class="eyebrow">SIGNAL NETWORK <span>/ 04</span></p>
+          <h2>Every decision starts with a signal.</h2>
+          <p>
+            Small changes are easy to miss in isolation. Together, they can
+            change the decision.
+          </p>
+        </div>
+        <div class="signal-columns">
+          <article class="signal signal--primary reveal">
+            <p class="micro-label">MARKET MOMENTUM</p>
+            <strong>+13.3%</strong>
+            <p>Demand is accelerating across two priority segments.</p>
+            <figure class="signal-chart signal-chart--demand">
+              <figcaption>
+                <span>6 WEEK DEMAND INDEX</span><span>42 → 56</span>
+              </figcaption>
+              <svg
+                viewBox="0 0 440 170"
+                role="img"
+                aria-label="Six week demand trend showing priority segment A rising 18.2 percent and segment B rising 8.4 percent"
+              >
+                <defs>
+                  <linearGradient id="demandArea" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0" stop-color="#58bfff" stop-opacity=".35" />
+                    <stop offset="1" stop-color="#58bfff" stop-opacity="0" />
+                  </linearGradient>
+                  <linearGradient id="demandLine" x1="0" y1="0" x2="1" y2="0">
+                    <stop offset="0" stop-color="#397da8" />
+                    <stop offset="1" stop-color="#a9e3ff" />
+                  </linearGradient>
+                </defs>
+                <g class="chart-grid">
+                  <line x1="0" y1="30" x2="440" y2="30" />
+                  <line x1="0" y1="85" x2="440" y2="85" />
+                  <line x1="0" y1="140" x2="440" y2="140" />
+                </g>
+                <path
+                  class="chart-area"
+                  d="M0 136 C45 133 61 126 91 120 S150 111 177 101 S234 94 265 79 S326 69 350 52 S406 41 440 23 L440 150 L0 150 Z"
+                  fill="url(#demandArea)"
+                />
+                <path
+                  class="chart-line chart-line--primary"
+                  d="M0 136 C45 133 61 126 91 120 S150 111 177 101 S234 94 265 79 S326 69 350 52 S406 41 440 23"
+                  stroke="url(#demandLine)"
+                />
+                <path
+                  class="chart-line chart-line--secondary"
+                  d="M0 142 C48 138 68 137 98 130 S154 126 187 118 S247 111 276 105 S340 98 370 91 S414 84 440 76"
+                />
+                <g class="chart-points">
+                  <circle cx="177" cy="101" r="3" />
+                  <circle cx="350" cy="52" r="3" />
+                  <circle cx="440" cy="23" r="4" />
+                </g>
+                <g class="chart-axis">
+                  <text x="0" y="166">W01</text>
+                  <text x="168" y="166">W03</text>
+                  <text x="342" y="166">W05</text>
+                  <text x="420" y="166">NOW</text>
+                </g>
+              </svg>
+              <div class="chart-legend">
+                <span><i class="legend-a"></i>Segment A <b>+18.2%</b></span
+                ><span><i class="legend-b"></i>Segment B <b>+8.4%</b></span>
+              </div>
+            </figure>
+            <small>EVIDENCE / Search volume + conversion velocity</small>
+          </article>
+          <article class="signal reveal">
+            <p class="micro-label">CUSTOMER VALUE</p>
+            <strong>+8.7%</strong>
+            <p>High-value cohorts are retaining longer than forecast.</p>
+            <figure class="signal-chart signal-chart--cohort">
+              <figcaption>
+                <span>COHORT RETENTION</span><span>ACTUAL / PLAN</span>
+              </figcaption>
+              <svg
+                viewBox="0 0 300 170"
+                role="img"
+                aria-label="Customer retention at 30, 60 and 90 days, with actual retention above forecast at each interval"
+              >
+                <defs>
+                  <linearGradient id="cohortBar" x1="0" y1="1" x2="0" y2="0">
+                    <stop offset="0" stop-color="#286d99" />
+                    <stop offset="1" stop-color="#78d5ff" />
+                  </linearGradient>
+                </defs>
+                <g class="chart-grid">
+                  <line x1="0" y1="30" x2="300" y2="30" />
+                  <line x1="0" y1="85" x2="300" y2="85" />
+                  <line x1="0" y1="140" x2="300" y2="140" />
+                </g>
+                <g class="cohort-bars">
+                  <rect x="25" y="46" width="24" height="94" rx="2" />
+                  <rect
+                    class="is-plan"
+                    x="53"
+                    y="61"
+                    width="13"
+                    height="79"
+                    rx="1"
+                  />
+                  <rect x="115" y="66" width="24" height="74" rx="2" />
+                  <rect
+                    class="is-plan"
+                    x="143"
+                    y="84"
+                    width="13"
+                    height="56"
+                    rx="1"
+                  />
+                  <rect x="205" y="82" width="24" height="58" rx="2" />
+                  <rect
+                    class="is-plan"
+                    x="233"
+                    y="103"
+                    width="13"
+                    height="37"
+                    rx="1"
+                  />
+                </g>
+                <g class="bar-values">
+                  <text x="26" y="39">84%</text>
+                  <text x="116" y="59">66%</text>
+                  <text x="206" y="75">52%</text>
+                </g>
+                <g class="chart-axis">
+                  <text x="24" y="163">30D</text>
+                  <text x="114" y="163">60D</text>
+                  <text x="204" y="163">90D</text>
+                </g>
+              </svg>
+              <div class="chart-legend">
+                <span><i class="legend-a"></i>Actual</span
+                ><span><i class="legend-plan"></i>Forecast</span>
+              </div>
+            </figure>
+            <small>EVIDENCE / 90-day cohort performance</small>
+          </article>
+          <article class="signal reveal">
+            <p class="micro-label">COMPETITIVE PRESSURE</p>
+            <strong>72 <em>/ 100</em></strong>
+            <p>
+              Three competitors increased activity in your strongest region.
+            </p>
+            <figure class="signal-chart signal-chart--pressure">
+              <figcaption>
+                <span>REGIONAL ACTIVITY</span><span>+21 PTS / 30D</span>
+              </figcaption>
+              <svg
+                viewBox="0 0 300 170"
+                role="img"
+                aria-label="Competitive activity by three competitors, led by competitor A at 82 points"
+              >
+                <defs>
+                  <linearGradient id="pressureBar" x1="0" y1="0" x2="1" y2="0">
+                    <stop offset="0" stop-color="#245d84" />
+                    <stop offset=".72" stop-color="#5fbbea" />
+                    <stop offset="1" stop-color="#b4e7ff" />
+                  </linearGradient>
+                </defs>
+                <g class="pressure-rows">
+                  <text x="0" y="35">RIVAL A</text>
+                  <rect
+                    class="bar-track"
+                    x="68"
+                    y="23"
+                    width="205"
+                    height="12"
+                    rx="2"
+                  />
+                  <rect
+                    class="bar-value"
+                    x="68"
+                    y="23"
+                    width="168"
+                    height="12"
+                    rx="2"
+                  />
+                  <text class="value" x="282" y="34">82</text>
+                  <text x="0" y="85">RIVAL B</text>
+                  <rect
+                    class="bar-track"
+                    x="68"
+                    y="73"
+                    width="205"
+                    height="12"
+                    rx="2"
+                  />
+                  <rect
+                    class="bar-value"
+                    x="68"
+                    y="73"
+                    width="137"
+                    height="12"
+                    rx="2"
+                  />
+                  <text class="value" x="282" y="84">67</text>
+                  <text x="0" y="135">RIVAL C</text>
+                  <rect
+                    class="bar-track"
+                    x="68"
+                    y="123"
+                    width="205"
+                    height="12"
+                    rx="2"
+                  />
+                  <rect
+                    class="bar-value"
+                    x="68"
+                    y="123"
+                    width="112"
+                    height="12"
+                    rx="2"
+                  />
+                  <text class="value" x="282" y="134">55</text>
+                </g>
+                <line
+                  class="pressure-threshold"
+                  x1="211"
+                  y1="12"
+                  x2="211"
+                  y2="148"
+                />
+                <text class="threshold-label" x="216" y="160">WATCH 70</text>
+              </svg>
+            </figure>
+            <small>EVIDENCE / Share-of-voice movement</small>
+          </article>
+          <article class="signal signal--negative reveal">
+            <p class="micro-label">MARGIN EXPOSURE</p>
+            <strong>−4.2%</strong>
+            <p>
+              Rising acquisition costs are beginning to compress projected
+              margin.
+            </p>
+            <figure class="signal-chart signal-chart--margin">
+              <figcaption>
+                <span>PROJECTED CONTRIBUTION MARGIN</span><span>Q2 → Q3</span>
+              </figcaption>
+              <svg
+                viewBox="0 0 300 170"
+                role="img"
+                aria-label="Projected margin declining from 31.8 percent to 27.6 percent while acquisition cost rises"
+              >
+                <defs>
+                  <linearGradient id="marginArea" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0" stop-color="#f0a85b" stop-opacity=".3" />
+                    <stop offset="1" stop-color="#f0a85b" stop-opacity="0" />
+                  </linearGradient>
+                  <linearGradient id="marginLine" x1="0" y1="0" x2="1" y2="0">
+                    <stop offset="0" stop-color="#7cc4ec" />
+                    <stop offset=".58" stop-color="#b4c7ce" />
+                    <stop offset="1" stop-color="#f0a85b" />
+                  </linearGradient>
+                </defs>
+                <g class="chart-grid">
+                  <line x1="0" y1="30" x2="300" y2="30" />
+                  <line x1="0" y1="85" x2="300" y2="85" />
+                  <line x1="0" y1="140" x2="300" y2="140" />
+                </g>
+                <path
+                  class="chart-area"
+                  d="M0 40 C42 45 70 54 102 62 S165 81 196 95 S259 114 300 130 L300 145 L0 145 Z"
+                  fill="url(#marginArea)"
+                />
+                <path
+                  class="chart-line margin-line"
+                  d="M0 40 C42 45 70 54 102 62 S165 81 196 95 S259 114 300 130"
+                  stroke="url(#marginLine)"
+                />
+                <circle class="margin-start" cx="0" cy="40" r="4" />
+                <circle class="margin-end" cx="300" cy="130" r="4" />
+                <g class="margin-values">
+                  <text x="7" y="31">31.8%</text>
+                  <text x="251" y="119">27.6%</text>
+                </g>
+                <g class="chart-axis">
+                  <text x="0" y="165">APR</text>
+                  <text x="132" y="165">JUN</text>
+                  <text x="274" y="165">AUG</text>
+                </g>
+              </svg>
+              <div class="chart-legend">
+                <span><i class="legend-a"></i>Margin</span
+                ><span class="is-warning">CAC +9.1%</span>
+              </div>
+            </figure>
+            <small>EVIDENCE / Blended CAC across paid channels</small>
+          </article>
+        </div>
+      </section>
+
+      <section class="process section-grid" id="process">
+        <div class="section-title reveal">
+          <p class="eyebrow">INTELLIGENCE LAYER <span>/ 05</span></p>
+          <h2>Signals become useful when context connects them.</h2>
+          <p>
+            NEXUS evaluates every decision through connected layers of business
+            intelligence.
+          </p>
+        </div>
+        <div class="process-panel reveal">
+          <svg
+            class="process-connectors"
+            viewBox="0 0 1200 500"
+            preserveAspectRatio="none"
+            aria-hidden="true"
+          >
+            <defs>
+              <linearGradient id="connectorIn" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#29495f" stop-opacity=".35" />
+                <stop offset="1" stop-color="#61bdf1" stop-opacity=".9" />
+              </linearGradient>
+              <linearGradient id="connectorOut" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#61bdf1" stop-opacity=".9" />
+                <stop offset="1" stop-color="#29495f" stop-opacity=".35" />
+              </linearGradient>
+              <filter id="connectorGlow">
+                <feGaussianBlur stdDeviation="2" result="blur" />
+                <feMerge>
+                  <feMergeNode in="blur" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+            </defs>
+            <g class="connector-group connector-group--inputs">
+              <path data-connector="revenue" />
+              <path data-connector="customers" />
+              <path data-connector="operations" />
+              <path data-connector="market" />
+              <path data-connector="competition" />
+              <path data-connector="research" />
+            </g>
+            <g class="connector-group connector-group--outputs">
+              <path data-connector="scenarios" />
+              <path data-connector="risks" />
+              <path data-connector="recommendation" />
+              <path data-connector="confidence" />
+            </g>
+            <g class="connector-points">
+              <circle class="is-hub" data-point="hub-in" r="4" />
+              <circle class="is-hub" data-point="hub-out" r="4" />
+            </g>
+          </svg>
+
+          <div class="map-column map-column--inputs">
+            <p class="micro-label">INPUT SIGNALS <span>06 CONNECTED</span></p>
+            <div class="map-node" data-node="revenue">
+              <span>Revenue</span><small>ERP / LIVE</small><i></i>
+            </div>
+            <div class="map-node" data-node="customers">
+              <span>Customers</span><small>CRM / 12 SEC</small><i></i>
+            </div>
+            <div class="map-node" data-node="operations">
+              <span>Operations</span><small>OPS / LIVE</small><i></i>
+            </div>
+            <div class="map-node" data-node="market">
+              <span>Market</span><small>EXT / 4 MIN</small><i></i>
+            </div>
+            <div class="map-node" data-node="competition">
+              <span>Competition</span><small>INTEL / 18 MIN</small><i></i>
+            </div>
+            <div class="map-node" data-node="research">
+              <span>Research</span><small>DOCS / 2 HR</small><i></i>
+            </div>
+          </div>
+
+          <div class="map-engine">
+            <div class="engine-head">
+              <span><i></i>NEXUS CORE</span><small>MODEL / NX-04</small>
+            </div>
+            <div class="engine-flow">
+              <div
+                class="engine-stage"
+                data-stage="observe"
+                data-inputs="revenue customers operations market competition research"
+                data-outputs="scenarios"
+              >
+                <span>01</span>
+                <p>Observe<small>Normalize changing evidence</small></p>
+              </div>
+              <div
+                class="engine-stage"
+                data-stage="connect"
+                data-inputs="revenue customers operations research"
+                data-outputs="risks"
+              >
+                <span>02</span>
+                <p>Connect<small>Build the context graph</small></p>
+              </div>
+              <div
+                class="engine-stage"
+                data-stage="model"
+                data-inputs="market competition research"
+                data-outputs="scenarios risks"
+              >
+                <span>03</span>
+                <p>Model<small>Test scenarios and uncertainty</small></p>
+              </div>
+              <div
+                class="engine-stage"
+                data-stage="recommend"
+                data-inputs="revenue customers operations"
+                data-outputs="recommendation confidence"
+              >
+                <span>04</span>
+                <p>Recommend<small>Rank the strongest next move</small></p>
+              </div>
+              <div
+                class="engine-stage engine-stage--learn"
+                data-stage="learn"
+                data-inputs="customers operations"
+                data-outputs="confidence"
+              >
+                <span>05</span>
+                <p>Learn<small>Improve from measured outcomes</small></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-column map-column--outputs">
+            <p class="micro-label">
+              DECISION OUTPUT <span>CONFIDENCE 84%</span>
+            </p>
+            <div class="map-node" data-node="scenarios">
+              <i></i><span>Scenario set</span><small>03 PATHS</small>
+            </div>
+            <div class="map-node" data-node="risks">
+              <i></i><span>Risk exposure</span><small>02 MATERIAL</small>
+            </div>
+            <div class="map-node" data-node="recommendation">
+              <i></i><span>Recommended path</span><small>RETENTION-02</small>
+            </div>
+            <div class="map-node" data-node="confidence">
+              <i></i><span>Confidence score</span><small>84% / HIGH</small>
+            </div>
+          </div>
+        </div>
+        <div class="process-meta mono">
+          <span>DATA SOURCES / 06</span><span>MODEL STATE / ACTIVE</span
+          ><span>CONTEXT WINDOW / LIVE</span
+          ><span>EVIDENCE COVERAGE / 91%</span>
+        </div>
+        <p class="process-statement reveal">
+          Complexity enters. <span>Clarity leaves.</span>
+        </p>
+      </section>
+
+      <section class="scenarios section-grid" id="scenarios">
+        <div class="scenario-intro reveal">
+          <p class="eyebrow">SCENARIO ENGINE <span>/ 06</span></p>
+          <h2>Compare the paths before choosing one.</h2>
+          <p class="question">Where should the next growth investment go?</p>
+          <ul class="data-list mono">
+            <li>3 scenarios generated</li>
+            <li>12 signals evaluated</li>
+            <li>5 uncertainties detected</li>
+          </ul>
+        </div>
+        <div class="scenario-stack">
+          <article class="scenario-card reveal">
+            <div class="scenario-card__head">
+              <span>01 / ACQUISITION</span
+              ><i class="confidence-ring" style="--score: 67"></i>
+            </div>
+            <h3>Increase acquisition</h3>
+            <strong>+14.2%</strong><span>Projected growth</span>
+            <p>
+              Higher upside, but increasing acquisition costs create material
+              downside exposure.
+            </p>
+            <footer>
+              <span>67% confidence</span><span>RISK / ELEVATED</span>
+            </footer>
+          </article>
+          <article class="scenario-card scenario-card--recommended reveal">
+            <div class="scenario-card__head">
+              <span>02 / RETENTION</span><em><i></i> RECOMMENDED</em>
+            </div>
+            <h3>Increase retention investment</h3>
+            <strong>+11.6%</strong><span>Projected growth</span>
+            <p>
+              Lower short-term upside with stronger expected customer value and
+              lower execution risk.
+            </p>
+            <footer>
+              <span>86% confidence</span><span>RISK / CONTROLLED</span>
+            </footer>
+          </article>
+          <article class="scenario-card reveal">
+            <div class="scenario-card__head">
+              <span>03 / EXPANSION</span
+              ><i class="confidence-ring" style="--score: 54"></i>
+            </div>
+            <h3>Enter a new market</h3>
+            <strong>+18.9%</strong><span>Projected growth</span>
+            <p>
+              Strong theoretical opportunity, but current market evidence
+              remains insufficient.
+            </p>
+            <footer>
+              <span>54% confidence</span><span>RISK / MATERIAL</span>
+            </footer>
+          </article>
+        </div>
+        <div class="recommendation reveal">
+          <span class="micro-label">RECOMMENDED PATH</span>
+          <p>
+            Prioritize retention while continuing to validate the new-market
+            opportunity.
+          </p>
+          <i>↗</i>
+        </div>
+      </section>
+
+      <section class="query section-grid" id="query">
+        <div class="section-title reveal">
+          <p class="eyebrow">DECISION QUERY <span>/ 07</span></p>
+          <h2>Ask a decision, not a chatbot.</h2>
+          <p>
+            NEXUS evaluates the question against available evidence, scenarios,
+            assumptions, and risk.
+          </p>
+        </div>
+        <div class="query-box reveal">
+          <span class="micro-label">WHAT ARE YOU DECIDING?</span>
+          <p>Should we expand into Germany this year?</p>
+          <button type="button" aria-label="Evaluate decision">↗</button>
+        </div>
+        <div class="decision-output reveal">
+          <div class="output-recommendation">
+            <span class="micro-label">RECOMMENDATION</span>
+            <h3>Delay full expansion by two quarters.</h3>
+            <p>Begin controlled market validation now.</p>
+          </div>
+          <div class="output-confidence">
+            <strong data-count="76">0</strong><span>%</span>
+            <p>Decision confidence</p>
+          </div>
+          <div class="evidence-table">
+            <div><span>Demand signals</span><strong>Positive</strong></div>
+            <div>
+              <span>Acquisition cost certainty</span><strong>Low</strong>
+            </div>
+            <div>
+              <span>Competitive intensity</span><strong>Increasing</strong>
+            </div>
+            <div>
+              <span>Operational readiness</span><strong>Partial</strong>
+            </div>
+          </div>
+          <div class="uncertainty">
+            <span class="micro-label">BIGGEST UNCERTAINTY</span>
+            <p>Reliable customer acquisition cost at scale.</p>
+          </div>
+        </div>
+        <a class="next-action reveal" href="#confidence"
+          ><span
+            ><small>NEXT BEST ACTION</small>Run a 90-day market test across two
+            priority customer segments.</span
+          ><i>→</i></a
+        >
+      </section>
+
+      <section class="confidence section-grid" id="confidence">
+        <div class="section-title reveal">
+          <p class="eyebrow">EVIDENCE QUALITY <span>/ 08</span></p>
+          <h2>Confidence without hiding uncertainty.</h2>
+          <p>
+            Every recommendation includes the evidence, assumptions, confidence,
+            and unresolved questions behind it.
+          </p>
+        </div>
+        <div class="confidence-score reveal">
+          <div class="measurement"></div>
+          <strong data-count="82">0</strong><span>%</span>
+          <p>Recommendation confidence</p>
+        </div>
+        <div class="quality-table reveal">
+          <div><span>Evidence coverage</span><strong>91%</strong></div>
+          <div><span>Contradicting signals</span><strong>2</strong></div>
+          <div><span>Open assumptions</span><strong>3</strong></div>
+          <div><span>Data freshness</span><strong>18 min ago</strong></div>
+          <div><span>Model agreement</span><strong>High</strong></div>
+        </div>
+        <blockquote class="reveal">
+          No black-box certainty.<br />No fabricated confidence.<small
+            >NEXUS shows what supports a decision — and what could still change
+            it.</small
+          >
+        </blockquote>
+      </section>
+
+      <section class="history section-grid" id="decisions">
+        <div class="section-title reveal">
+          <p class="eyebrow">DECISION MEMORY <span>/ 09</span></p>
+          <h2>Remember why the business chose a path.</h2>
+          <p>
+            NEXUS creates a living record of important decisions, the evidence
+            behind them, and what happened next.
+          </p>
+        </div>
+        <div class="ledger reveal">
+          <div class="ledger-row">
+            <time>18 MAR</time>
+            <h3>Shifted investment toward retention</h3>
+            <p><span>EXPECTED</span>+9.4% customer lifetime value</p>
+            <p><span>ACTUAL</span><strong>+11.1%</strong></p>
+            <em>OUTPERFORMED</em>
+          </div>
+          <div class="ledger-row">
+            <time>02 APR</time>
+            <h3>Paused Region C expansion</h3>
+            <p><span>REASON</span>Demand uncertainty</p>
+            <p><span>OUTCOME</span><strong>Downside avoided</strong></p>
+            <em>VALIDATED</em>
+          </div>
+          <div class="ledger-row">
+            <time>29 APR</time>
+            <h3>Adjusted enterprise pricing</h3>
+            <p><span>EXPECTED</span>+3.1% margin</p>
+            <p><span>ACTUAL</span><strong>+4.3%</strong></p>
+            <em>OUTPERFORMED</em>
+          </div>
+        </div>
+      </section>
+
+      <section class="product-experience" id="product-experience">
+        <div class="product-experience__sticky">
+          <div class="product-experience__grid" aria-hidden="true"></div>
+          <header class="product-experience__header">
+            <div>
+              <p class="eyebrow">PRODUCT EXPERIENCE <span>/ 10</span></p>
+              <h2>See intelligence in action.</h2>
+              <p>Move from executive visibility to a single decision, then inspect the evidence behind it.</p>
+            </div>
+            <nav class="product-progress" aria-label="Product experience progress">
+              <button class="is-active" type="button" data-product-step="0"><span>01</span> NEXUS Assistant</button>
+              <button type="button" data-product-step="1"><span>02</span> Decision Workspace</button>
+              <button type="button" data-product-step="2"><span>03</span> Intelligence Explorer</button>
+            </nav>
+          </header>
+
+          <div class="product-experience__body">
+            <div class="product-copy" aria-live="polite">
+              <article class="product-copy__stage is-active" data-product-copy="0">
+                <p>01 / NEXUS ASSISTANT</p><h3>Ask the decision, not the dashboard.</h3><div class="product-copy__rule"></div>
+                <p>Work through a business question in conversation, with the evidence, uncertainty, and next action kept in context.</p>
+                <small>A decision interface built around questions, reasoning, and action.</small>
+              </article>
+              <article class="product-copy__stage" data-product-copy="1" aria-hidden="true">
+                <p>02 / DECISION WORKSPACE</p><h3>Understand the decision before making it.</h3><div class="product-copy__rule"></div>
+                <p>NEXUS brings the recommendation, alternatives, evidence, uncertainty, and next action into one decision workspace.</p>
+              </article>
+              <article class="product-copy__stage" data-product-copy="2" aria-hidden="true">
+                <p>03 / INTELLIGENCE EXPLORER</p><h3>Trace the recommendation back to the evidence.</h3><div class="product-copy__rule"></div>
+                <p>Inspect the signals, assumptions, contradictions, historical context, and confidence structure behind the recommendation.</p>
+              </article>
+              <div class="product-copy__count mono"><strong data-product-count>01</strong><span>/ 03</span></div>
+            </div>
+
+            <div class="nexus-product" data-nexus-product>
+              <aside class="nexus-product__nav">
+                <a class="nexus-product__brand" href="#overview">NEXUS<i></i></a>
+                <nav aria-label="NEXUS product navigation">
+                  <button class="is-active" type="button" data-app-nav="overview"><i></i>Overview</button>
+                  <button type="button" data-app-nav="decisions"><i></i>Decisions</button>
+                  <button type="button"><i></i>Signals</button><button type="button"><i></i>Scenarios</button>
+                  <button type="button" data-app-nav="intelligence"><i></i>Intelligence</button><button type="button"><i></i>History</button>
+                </nav>
+                <div class="nexus-product__system mono"><span>SYSTEM</span><strong>ONLINE</strong><small>NX / 04.8</small></div>
+              </aside>
+
+              <div class="nexus-product__window">
+                <div class="nexus-product__chrome mono"><span><i></i> DECISION INTELLIGENCE</span><span>GERMANY / ACTIVE</span><span>•••</span></div>
+
+                <article class="product-screen product-screen--overview is-active" data-product-screen="0">
+                  <header class="app-heading assistant-heading">
+                    <div><span>OVERVIEW / ASSISTANT</span><h3>NEXUS Chat Assistant</h3></div>
+                    <p><i class="assistant-heading__status"></i> Decision context active <button type="button">Germany</button></p>
+                  </header>
+                  <section class="assistant-workspace" aria-label="NEXUS assistant conversation">
+                    <div class="assistant-thread">
+                      <p class="assistant-thread__date mono">TODAY / DECISION SESSION 04</p>
+                      <article class="assistant-message assistant-message--nexus">
+                        <span class="assistant-avatar">N</span><div><strong>NEXUS</strong><p>What decision are you working through?</p></div>
+                      </article>
+                      <article class="assistant-message assistant-message--user">
+                        <div><strong>YOU</strong><p>Should we expand into Germany this year?</p></div>
+                      </article>
+                      <article class="assistant-message assistant-message--nexus">
+                        <span class="assistant-avatar">N</span>
+                        <div><strong>NEXUS</strong><p>The strongest path is a controlled 90-day market pilot before full expansion.</p><ul><li>Demand is strengthening across two priority segments.</li><li>Acquisition cost at scale is still uncertain.</li><li>Competitive pressure is increasing.</li></ul><div class="assistant-answer__meta"><span>76% CONFIDENCE</span><span>17 SIGNALS</span><span>3 SCENARIOS</span></div><button class="assistant-answer__action" type="button" data-open-decision>Open decision workspace &rarr;</button></div>
+                      </article>
+                    </div>
+                    <div class="assistant-composer">
+                      <input type="text" aria-label="Ask NEXUS anything" placeholder="Ask anything..." />
+                      <div class="assistant-composer__tools"><span>+ &nbsp; EVIDENCE</span><span>DEEP ANALYSIS</span></div>
+                      <button type="button" aria-label="Send question">&rarr;</button>
+                    </div>
+                    <div class="assistant-prompts" aria-label="Suggested questions"><button type="button">What is the biggest risk?</button><button type="button">Compare the three paths</button><button type="button">What evidence is missing?</button></div>
+                  </section>
+                </article>
+
+                <article class="product-screen product-screen--workspace" data-product-screen="1" aria-hidden="true">
+                  <header class="app-heading"><div><span>DECISIONS / GERMANY EXPANSION</span><h3>Germany Market Expansion</h3></div><p class="app-heading__tags"><span>STRATEGY</span><span>12-MONTH HORIZON</span><span>17 SIGNALS</span></p></header>
+                  <div class="workspace-layout">
+                    <section class="workspace-recommendation"><div><span>RECOMMENDATION</span><h4>Delay full expansion by two quarters.</h4><p>Begin controlled market validation now.</p></div><div class="confidence-dial"><strong>76%</strong><span>CONFIDENCE</span></div></section>
+                    <section class="scenario-compare"><div class="product-kicker"><span>SCENARIO COMPARISON</span><em>03 PATHS</em></div><div class="scenario-columns">
+                      <article><span>01 / EXPAND NOW</span><dl><div><dt>Projected growth</dt><dd>+18.9%</dd></div><div><dt>Confidence</dt><dd>54%</dd></div><div><dt>Risk</dt><dd>High</dd></div></dl></article>
+                      <article class="is-recommended"><span>02 / RUN PILOT <em>RECOMMENDED</em></span><dl><div><dt>Projected growth</dt><dd>+11.6%</dd></div><div><dt>Confidence</dt><dd>86%</dd></div><div><dt>Risk</dt><dd>Low–Medium</dd></div></dl></article>
+                      <article><span>03 / DELAY</span><dl><div><dt>Projected growth</dt><dd>+6.8%</dd></div><div><dt>Confidence</dt><dd>73%</dd></div><div><dt>Risk</dt><dd>Low</dd></div></dl></article>
+                    </div></section>
+                    <section class="workspace-evidence"><div class="product-kicker"><span>SUPPORTING EVIDENCE</span><em>VIEW EVIDENCE →</em></div><div><span>Demand signals</span><strong>Positive</strong></div><div><span>Acquisition cost certainty</span><strong>Low</strong></div><div><span>Competitive intensity</span><strong>Increasing</strong></div><div><span>Operational readiness</span><strong>Partial</strong></div></section>
+                    <section class="workspace-action"><div><span>BIGGEST UNCERTAINTY</span><strong>Reliable customer acquisition cost at scale.</strong></div><div><span>NEXT BEST ACTION</span><strong>Run a 90-day market pilot across two priority customer segments.</strong></div><button type="button">Create pilot plan →</button></section>
+                  </div>
+                </article>
+
+                <article class="product-screen product-screen--explorer" data-product-screen="2" aria-hidden="true">
+                  <header class="app-heading"><div><span>GERMANY EXPANSION / RECOMMENDATION 04</span><h3>Intelligence Explorer</h3></div><p class="app-heading__tags"><span>11 SOURCES</span><span>17 SIGNALS</span><span>3 ASSUMPTIONS</span><span>2 CONTRADICTIONS</span></p></header>
+                  <div class="explorer-layout">
+                    <section class="evidence-sources"><div class="product-kicker"><span>EVIDENCE SOURCES</span><em>11 TOTAL</em></div>
+                      <button class="is-active" type="button" data-evidence="demand"><i></i><span>Market demand report<small>CURRENT / VERIFIED</small></span></button><button type="button" data-evidence="customer"><i></i><span>Customer cohort performance<small>CURRENT / VERIFIED</small></span></button><button type="button" data-evidence="cost"><i></i><span>Regional acquisition cost<small>UPDATED 18M AGO</small></span></button><button type="button" data-evidence="competition"><i></i><span>Competitor activity<small>CURRENT</small></span></button><button type="button" data-evidence="operations"><i></i><span>Operational capacity<small>VERIFIED</small></span></button><button type="button" data-evidence="history"><i></i><span>Historical expansion outcomes<small>VERIFIED</small></span></button>
+                    </section>
+                    <section class="signal-relationships" data-signal-map="demand"><div class="product-kicker"><span>SIGNAL RELATIONSHIPS</span><em>LIVE MODEL</em></div>
+                      <svg viewBox="0 0 520 400" aria-label="Relationships between recommendation signals"><g class="relation-lines"><path d="M76 78L262 200L438 76"/><path d="M76 200L262 200L444 202"/><path d="M78 326L262 200L440 326"/><path d="M76 78L76 326M438 76L440 326"/></g><g class="relation-nodes"><g data-node="demand" transform="translate(76 78)"><circle r="22"/><text y="38">MARKET DEMAND</text></g><g data-node="customer" transform="translate(76 200)"><circle r="16"/><text y="34">CUSTOMER FIT</text></g><g data-node="cost" transform="translate(78 326)"><circle r="19"/><text y="36">ACQUISITION COST</text></g><g class="relation-core" transform="translate(262 200)"><circle r="46"/><circle r="30"/><text y="3">NEXUS</text><text y="18">CORE</text></g><g data-node="competition" transform="translate(438 76)"><circle r="15"/><text y="33">COMPETITION</text></g><g data-node="operations" transform="translate(444 202)"><circle r="18"/><text y="36">READINESS</text></g><g data-node="history" transform="translate(440 326)"><circle r="14"/><text y="33">MARGIN EXPOSURE</text></g></g></svg>
+                      <div class="contradiction"><span>CONTRADICTING SIGNAL</span><strong>Strong demand growth</strong><i>versus</i><strong>Declining acquisition efficiency</strong><p>Demand supports expansion, but cost uncertainty reduces confidence in full-scale entry.</p></div>
+                    </section>
+                    <section class="reasoning-confidence"><div class="product-kicker"><span>REASONING / CONFIDENCE</span><em>NX-04</em></div><div class="reasoning-score"><strong>76%</strong><span>RECOMMENDATION CONFIDENCE</span></div><dl><div><dt>Evidence coverage</dt><dd>91%</dd></div><div><dt>Model agreement</dt><dd>High</dd></div><div><dt>Contradicting signals</dt><dd>2</dd></div><div><dt>Open assumptions</dt><dd>3</dd></div></dl><div class="assumptions"><span>ASSUMPTIONS</span><p><i>01</i>Acquisition cost remains within projected range.</p><p><i>02</i>Operational capacity can support pilot demand.</p><p><i>03</i>Competitive pressure does not accelerate materially.</p></div></section>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing section-grid">
+        <div class="closing__glow" aria-hidden="true"></div>
+        <p class="eyebrow reveal">NEXUS <span>/ 11</span></p>
+        <h2 class="reveal">
+          You already have the data.<br /><span
+            >Now know what to do with it.</span
+          >
+        </h2>
+        <p class="reveal">
+          Turn changing signals into decisions your team can understand,
+          challenge, and act on.
+        </p>
+        <a class="action-link reveal" href="#top">Enter NEXUS <span>→</span></a>
+        <small class="reveal"
+          >Decision intelligence for organisations that cannot afford to decide
+          from dashboards alone.</small
+        >
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark" href="#top"
+        >NEXUS<span class="wordmark__dot"></span
+      ></a>
+      <nav>
+        <a href="#overview">Product</a><a href="#intelligence">Intelligence</a
+        ><a href="#top">Privacy</a><a href="mailto:hello@nexus.ai">Contact</a>
+      </nav>
+      <small>Concept experience by Quite Okay Work.</small>
+    </footer>
+    <script src="process-map.js"></script>
+    <script src="workflow.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lenis@latest/dist/lenis.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@latest/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@latest/dist/ScrollTrigger.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

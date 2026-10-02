@@ -1,0 +1,1527 @@
+# PROJECT
+
+Create a premium one-page product website for an AI Decision Intelligence platform called **NEXUS**.
+
+NEXUS helps leadership, strategy, finance, operations, and analyst teams turn fragmented business signals into clear, evidence-backed decisions.
+
+The entire website must feel like a sophisticated intelligence report combined with a modern enterprise product interface.
+
+The visual direction must closely follow the two provided references:
+
+* Dark editorial layouts.
+* Precise grid systems.
+* Controlled blue atmospheric gradients.
+* Sparse glassmorphism.
+* Thin borders.
+* Strong numerical hierarchy.
+* Radial data visualisations.
+* Technical annotations.
+* Asymmetric layouts.
+* Restrained typography.
+* High contrast.
+* Premium experimental interface design.
+
+DO NOT create a generic SaaS landing page.
+
+DO NOT create a conventional startup design with large hero text, rounded cards, colourful icons, feature grids, gradient buttons, testimonials, pricing cards, or oversized typography.
+
+DO NOT make every element glassmorphic.
+
+DO NOT use huge typography everywhere.
+
+Large typography is allowed ONLY when a number, percentage, metric, or one particularly important decision needs strong visual emphasis.
+
+The interface must feel analytical, intelligent, controlled, and expensive.
+
+---
+
+# CORE PRODUCT POSITIONING
+
+Product name:
+
+**NEXUS**
+
+Product category:
+
+**AI Decision Intelligence**
+
+Core proposition:
+
+**Turn fragmented signals into clear decisions.**
+
+NEXUS continuously analyses business, customer, market, financial, operational, and competitive signals.
+
+It identifies what is changing, connects related evidence, evaluates possible actions, exposes uncertainty, and recommends the strongest next move.
+
+The product must NOT feel like a chatbot.
+
+It must feel like an intelligence system.
+
+The website must communicate this transformation:
+
+**Signal → Context → Scenario → Decision → Confidence → Outcome**
+
+---
+
+# GLOBAL VISUAL SYSTEM
+
+## Background
+
+Use predominantly:
+
+* Near-black.
+* Charcoal black.
+* Extremely dark navy.
+
+Avoid pure flat black across the entire page.
+
+Introduce controlled atmospheric gradients in selected areas.
+
+Primary gradient colours:
+
+* Deep navy blue.
+* Cool electric blue.
+* Muted steel blue.
+* Very subtle cyan.
+* Very subtle desaturated olive only where useful.
+
+Do NOT use purple-heavy AI gradients.
+
+Do NOT use neon rainbow gradients.
+
+Do NOT make gradients decorative blobs.
+
+Gradients must behave like controlled directional light entering a dark environment.
+
+The reference feeling should be closer to:
+
+A dark intelligence room illuminated by blue analytical light.
+
+---
+
+# TYPOGRAPHY
+
+Use a clean modern sans-serif / grotesk typography system.
+
+Typography must remain restrained.
+
+Headings should generally be medium-sized.
+
+Do NOT make standard section headings fill the viewport.
+
+Do NOT use giant 100–150px headings simply because space exists.
+
+Desktop approximate hierarchy:
+
+* Hero heading: approximately 48–64px maximum.
+* Section headings: approximately 34–48px.
+* Supporting headings: approximately 20–28px.
+* Body: approximately 14–18px.
+* Labels / metadata: approximately 10–12px.
+* Important numerical values may be significantly larger when justified.
+
+Numbers may reach approximately 80–140px ONLY when the number is the actual visual subject of the composition.
+
+Examples where large numerical typography is appropriate:
+
+**84%**
+
+**13.3%**
+
+**72 / 100**
+
+**+18.9%**
+
+Do not apply the same scale to normal sentences.
+
+Use generous but controlled line-height.
+
+Do not use ultra-bold typography everywhere.
+
+Prefer Regular, Medium, and Semibold weights.
+
+---
+
+# GRID LANGUAGE
+
+The grid is a major visual component.
+
+Use thin structural lines throughout the page.
+
+Lines may divide:
+
+* Sections.
+* Metrics.
+* Content blocks.
+* Data areas.
+* Visualisation areas.
+
+The grid should sometimes resemble an editorial report.
+
+Use:
+
+* Thin 1px borders.
+* Very low-opacity white lines.
+* Occasional blue-tinted lines.
+* Unequal column widths.
+* Unequal row heights.
+* Large blank cells.
+* Small metadata attached to grid intersections.
+
+Avoid repeated identical cards.
+
+Whenever possible, allow the PAGE GRID itself to contain the information.
+
+---
+
+# GLASSMORPHISM
+
+Glassmorphism must be restrained.
+
+Glass should be used only for important intelligence surfaces.
+
+Use:
+
+* Dark translucent panels.
+* Subtle backdrop blur.
+* Thin translucent border.
+* Faint blue illumination.
+* Minimal shadow.
+* Slight inner highlight.
+
+Do NOT make every section a glass card.
+
+Do NOT create floating rounded rectangles everywhere.
+
+Border radius should remain controlled.
+
+Most containers should use:
+
+* 8px.
+* 12px.
+* Maximum around 16px.
+
+Avoid excessive 30px–50px rounded corners.
+
+---
+
+# NAVIGATION
+
+Create a very minimal navigation.
+
+Left:
+
+**NEXUS**
+
+Use a simple text wordmark.
+
+Do not create a large logo symbol unless needed later.
+
+Centre/right navigation:
+
+Overview
+Intelligence
+Scenarios
+Decisions
+
+Far right:
+
+**Enter platform ↗**
+
+The navigation must remain thin and understated.
+
+Dark transparent background initially.
+
+After scrolling, introduce:
+
+* Slight blur.
+* Very subtle dark glass background.
+* Thin bottom border.
+
+Do NOT use a large floating pill navbar.
+
+---
+
+# SECTION 01 — HERO
+
+## Layout
+
+Use approximately 90–100vh.
+
+Create an asymmetric composition.
+
+Left side:
+
+Product introduction.
+
+Right side:
+
+Main live decision intelligence visual.
+
+Do NOT centre the entire hero.
+
+Do NOT create a giant heading occupying most of the viewport.
+
+---
+
+## Hero Copy
+
+Small label:
+
+**AI DECISION INTELLIGENCE / 01**
+
+Main heading:
+
+**Make the next move with evidence.**
+
+Supporting copy:
+
+**NEXUS turns fragmented business signals into clear, defensible decisions — before the window to act closes.**
+
+Secondary copy:
+
+Connect market, customer, financial, operational, and competitive intelligence in one decision layer.
+
+Primary CTA:
+
+**Explore intelligence →**
+
+Secondary CTA:
+
+**How it works**
+
+---
+
+## Hero Visual
+
+Create a large analytical interface occupying the right half.
+
+The interface should feel embedded into the page rather than like a floating SaaS dashboard screenshot.
+
+Use a dark glass surface with a subtle blue gradient entering from behind it.
+
+Inside:
+
+Small label:
+
+**LIVE DECISION / 08:42:16**
+
+Primary decision:
+
+**Shift acquisition spend toward existing high-value segments for the next 90 days.**
+
+Below it:
+
+**84%**
+
+Label:
+
+**Decision confidence**
+
+The 84% can be visually large.
+
+This is one of the few places where oversized numerical typography is encouraged.
+
+---
+
+## Confidence Visual
+
+Place a radial intelligence visual near the 84%.
+
+Use approximately 50–70 thin radial ticks.
+
+Do NOT use a generic doughnut chart.
+
+Most radial lines remain muted.
+
+The active confidence range becomes brighter.
+
+Use tiny dots or line highlights at key thresholds.
+
+Inside or near the radial visual:
+
+**84%**
+
+Below:
+
+**CONFIDENCE**
+
+---
+
+## Supporting Hero Metrics
+
+Create three restrained values underneath or alongside the main decision.
+
+**+11.8%**
+Projected retention impact
+
+**−7.4%**
+Acquisition efficiency
+
+**3 / 2**
+Supporting signals / material uncertainties
+
+Use thin dividers.
+
+Do not turn these into individual cards.
+
+---
+
+## Hero Technical Details
+
+Add very small annotations around the analytical area:
+
+MODEL / NX-04
+UPDATED / 12 SEC
+EVIDENCE / 08:11
+SIGNALS / 17
+SCENARIO / RETENTION-02
+
+These should be subtle and decorative only after readability is established.
+
+---
+
+## Hero Background
+
+Use a dark background.
+
+Introduce a strong but controlled cool-blue glow behind the intelligence interface.
+
+Allow the gradient to fade naturally toward black.
+
+Optional very subtle grain.
+
+No moving particle field.
+
+No fake AI neural network.
+
+---
+
+# SECTION 02 — FROM DATA TO DIRECTION
+
+Use an editorial grid strongly inspired by the first reference.
+
+This section must feel like an intelligence report rather than a normal website section.
+
+---
+
+## Top Area
+
+Left side:
+
+Small label:
+
+**SIGNAL REPORT / 02**
+
+Heading:
+
+**More data does not create better decisions.**
+
+Body:
+
+Businesses already have dashboards, reports, forecasts, research, and AI tools.
+
+The challenge is understanding what deserves attention, what is connected, and what should happen next.
+
+NEXUS continuously evaluates those signals and turns them into decision-ready intelligence.
+
+Keep the heading moderate in size.
+
+---
+
+## Metrics Grid
+
+Create a large grid underneath.
+
+Use four metric areas.
+
+Do NOT create four rounded cards.
+
+Use the structural grid itself.
+
+Metric 01:
+
+**17**
+
+Signals changed this week
+
+Metric 02:
+
+**4**
+
+Require attention
+
+Metric 03:
+
+**2**
+
+Decisions recommended
+
+Metric 04:
+
+**1**
+
+Material risk detected
+
+One metric may be visually larger than the others.
+
+For example:
+
+**17**
+
+Can occupy most of one large grid cell.
+
+The other metrics remain smaller.
+
+---
+
+## Visual Detail
+
+Behind one section of the grid, introduce a blue light gradient that appears to shine through the panel.
+
+Allow one grid corner to have a subtle curved inner shape inspired by the reference.
+
+Do not make every corner rounded.
+
+---
+
+# SECTION 03 — SIGNALS
+
+Small label:
+
+**SIGNAL NETWORK / 03**
+
+Heading:
+
+**Every decision starts with a signal.**
+
+Supporting text:
+
+Small changes are easy to miss in isolation.
+
+Together, they can change the decision.
+
+---
+
+## Signal Layout
+
+Use four vertical areas across the section.
+
+Different widths are encouraged.
+
+Do NOT use equal generic cards.
+
+---
+
+### Signal 01
+
+Label:
+
+**MARKET MOMENTUM**
+
+Value:
+
+**+13.3%**
+
+Description:
+
+Demand is accelerating across two priority segments.
+
+Use the 13.3% as a major visual number.
+
+This is an appropriate place for large typography.
+
+Add a minimal trajectory line underneath.
+
+---
+
+### Signal 02
+
+Label:
+
+**CUSTOMER VALUE**
+
+Value:
+
+**+8.7%**
+
+Description:
+
+High-value cohorts are retaining longer than forecast.
+
+Add a tiny horizontal comparison indicator.
+
+---
+
+### Signal 03
+
+Label:
+
+**COMPETITIVE PRESSURE**
+
+Value:
+
+**72 / 100**
+
+Description:
+
+Three competitors increased activity in your strongest region.
+
+Use a small radial indicator.
+
+---
+
+### Signal 04
+
+Label:
+
+**MARGIN EXPOSURE**
+
+Value:
+
+**−4.2%**
+
+Description:
+
+Rising acquisition costs are beginning to compress projected margin.
+
+Use a subtle downward directional line.
+
+---
+
+## Interaction
+
+On hover:
+
+* Highlight the active column slightly.
+* Increase border brightness.
+* Reveal one extra evidence line.
+* Dim neighbouring columns very slightly.
+
+No cards should dramatically scale.
+
+No bouncing.
+
+No bright glow.
+
+---
+
+# SECTION 04 — INTELLIGENCE LAYER
+
+This should visually explain how NEXUS works.
+
+Use a large dark analytical environment with subtle glass.
+
+Small label:
+
+**INTELLIGENCE LAYER / 04**
+
+Heading:
+
+**Signals become useful when context connects them.**
+
+Body:
+
+NEXUS evaluates every decision through connected layers of business intelligence.
+
+---
+
+## Main Interface
+
+Create one large horizontal glass panel.
+
+Inside, create a precise system using columns and thin separators.
+
+LEFT:
+
+**INPUT SIGNALS**
+
+Revenue
+Customers
+Operations
+Market
+Competition
+Research
+
+CENTRE:
+
+**NEXUS INTELLIGENCE**
+
+01 Observe
+02 Connect
+03 Model
+04 Recommend
+05 Learn
+
+RIGHT:
+
+**OUTPUT**
+
+Signals
+Scenarios
+Risks
+Recommendations
+Outcomes
+
+---
+
+## Visual Behaviour
+
+Represent the process with thin directional lines.
+
+Input signals begin widely distributed.
+
+Lines gradually move toward a central intelligence region.
+
+The central region should contain a subtle blue illumination.
+
+From the centre, fewer cleaner lines exit toward the outputs.
+
+Visually communicate:
+
+**Complexity enters. Clarity leaves.**
+
+Do NOT make a literal flowchart with coloured boxes and arrows.
+
+Keep it abstract, minimal, and editorial.
+
+---
+
+## Technical Metadata
+
+Around the panel include:
+
+DATA SOURCES / 06
+MODEL STATE / ACTIVE
+CONTEXT WINDOW / LIVE
+EVIDENCE COVERAGE / 91%
+
+Very small typography.
+
+---
+
+# SECTION 05 — SCENARIO MODELLING
+
+Small label:
+
+**SCENARIO ENGINE / 05**
+
+Heading:
+
+**Compare the paths before choosing one.**
+
+Question:
+
+**Where should the next growth investment go?**
+
+Supporting metadata:
+
+3 scenarios generated
+12 signals evaluated
+5 uncertainties detected
+
+---
+
+## Main Layout
+
+Use an asymmetrical layout inspired strongly by the second reference.
+
+Left side:
+
+Question and small explanatory copy.
+
+Right side:
+
+Three scenario intelligence blocks.
+
+Do not use generic equal-sized cards.
+
+Use slightly different heights and positions.
+
+---
+
+## Scenario 01
+
+Label:
+
+**01 / ACQUISITION**
+
+Title:
+
+Increase acquisition
+
+Main value:
+
+**+14.2%**
+
+Projected growth
+
+Secondary:
+
+**67% confidence**
+
+Detail:
+
+Higher upside, but increasing acquisition costs create material downside exposure.
+
+Use a small radial confidence indicator.
+
+---
+
+## Scenario 02
+
+Label:
+
+**02 / RETENTION**
+
+Title:
+
+Increase retention investment
+
+Main value:
+
+**+11.6%**
+
+Projected growth
+
+Secondary:
+
+**86% confidence**
+
+Detail:
+
+Lower short-term upside with stronger expected customer value and lower execution risk.
+
+This is the recommended scenario.
+
+Do NOT make it bright green.
+
+Instead:
+
+* Slightly brighter border.
+* Slightly stronger blue light.
+* Small indicator dot.
+* Label:
+
+**RECOMMENDED**
+
+---
+
+## Scenario 03
+
+Label:
+
+**03 / EXPANSION**
+
+Title:
+
+Enter a new market
+
+Main value:
+
+**+18.9%**
+
+Projected growth
+
+Secondary:
+
+**54% confidence**
+
+Detail:
+
+Strong theoretical opportunity, but current market evidence remains insufficient.
+
+---
+
+## Recommendation Area
+
+Below the scenario blocks:
+
+Small label:
+
+**RECOMMENDED PATH**
+
+Text:
+
+**Prioritize retention while continuing to validate the new-market opportunity.**
+
+Use an arrow pointing toward the recommended scenario.
+
+---
+
+# SECTION 06 — DECISION QUERY
+
+This is where the AI capability becomes explicit.
+
+Do NOT create a chatbot.
+
+Small label:
+
+**DECISION QUERY / 06**
+
+Heading:
+
+**Ask a decision, not a chatbot.**
+
+Body:
+
+NEXUS evaluates the question against available evidence, scenarios, assumptions, and risk.
+
+---
+
+## Query Area
+
+Use a wide rectangular interface.
+
+Very minimal.
+
+Top label:
+
+**WHAT ARE YOU DECIDING?**
+
+Question:
+
+**Should we expand into Germany this year?**
+
+Right-side action:
+
+Circular arrow icon or simple arrow.
+
+Do NOT use a typical pill-shaped AI input.
+
+Do NOT use chat bubbles.
+
+---
+
+## Decision Output
+
+Below, create a structured intelligence response.
+
+Small label:
+
+**RECOMMENDATION**
+
+Main recommendation:
+
+**Delay full expansion by two quarters.**
+
+Secondary:
+
+Begin controlled market validation now.
+
+Beside it:
+
+**76%**
+
+Decision confidence
+
+The 76% may be visually large.
+
+Add a precision radial indicator.
+
+---
+
+## Evidence Table
+
+Use thin horizontal rows.
+
+Do NOT use cards.
+
+**Demand signals**
+Positive
+
+**Acquisition cost certainty**
+Low
+
+**Competitive intensity**
+Increasing
+
+**Operational readiness**
+Partial
+
+---
+
+## Uncertainty Area
+
+Small label:
+
+**BIGGEST UNCERTAINTY**
+
+Text:
+
+Reliable customer acquisition cost at scale.
+
+---
+
+## Next Action
+
+Create one restrained dark-glass strip.
+
+Label:
+
+**NEXT BEST ACTION**
+
+Text:
+
+Run a 90-day market test across two priority customer segments.
+
+Arrow on the right.
+
+This glass element may receive a slightly brighter blue gradient.
+
+---
+
+# SECTION 07 — CONFIDENCE AND UNCERTAINTY
+
+Small label:
+
+**EVIDENCE QUALITY / 07**
+
+Heading:
+
+**Confidence without hiding uncertainty.**
+
+Supporting text:
+
+Every recommendation includes the evidence, assumptions, confidence, and unresolved questions behind it.
+
+---
+
+## Main Grid
+
+Create a strong two-column editorial composition.
+
+Left:
+
+Large:
+
+**82%**
+
+Label:
+
+Recommendation confidence
+
+The 82% should be one of the largest elements on the page.
+
+Behind or beside it, use a thin partial radial scale or vertical measurement scale.
+
+Do not decorate it excessively.
+
+---
+
+## Right
+
+Create a compact data table.
+
+**Evidence coverage**
+91%
+
+**Contradicting signals**
+2
+
+**Open assumptions**
+3
+
+**Data freshness**
+18 min ago
+
+**Model agreement**
+High
+
+Use rows and borders.
+
+No card background required.
+
+---
+
+## Supporting Statement
+
+Place this separately within negative space:
+
+**No black-box certainty.
+No fabricated confidence.**
+
+Then smaller text:
+
+NEXUS shows what supports a decision — and what could still change it.
+
+---
+
+# SECTION 08 — DECISION HISTORY
+
+Small label:
+
+**DECISION MEMORY / 08**
+
+Heading:
+
+**Remember why the business chose a path.**
+
+Supporting text:
+
+NEXUS creates a living record of important decisions, the evidence behind them, and what happened next.
+
+---
+
+## Layout
+
+Use a report-style ledger.
+
+Three large horizontal rows.
+
+Avoid conventional timeline dots.
+
+---
+
+### Row 01
+
+**18 MAR**
+
+Shifted investment toward retention
+
+Expected:
+
++9.4% customer lifetime value
+
+Actual:
+
+**+11.1%**
+
+Status:
+
+OUTPERFORMED
+
+---
+
+### Row 02
+
+**02 APR**
+
+Paused Region C expansion
+
+Reason:
+
+Demand uncertainty
+
+Outcome:
+
+**Downside exposure avoided**
+
+Status:
+
+VALIDATED
+
+---
+
+### Row 03
+
+**29 APR**
+
+Adjusted enterprise pricing
+
+Expected:
+
++3.1% margin
+
+Actual:
+
+**+4.3%**
+
+Status:
+
+OUTPERFORMED
+
+---
+
+## Visual Treatment
+
+Use vertical grid divisions.
+
+Dates remain small.
+
+Actual outcomes should carry stronger visual hierarchy than expected outcomes.
+
+Use subtle lines connecting:
+
+Expected → Actual
+
+---
+
+# SECTION 09 — CROSS-TEAM INTELLIGENCE
+
+Small label:
+
+**ORGANISATIONAL VIEW / 09**
+
+Heading:
+
+**One intelligence layer. Different points of view.**
+
+---
+
+## Role Selector
+
+Create a simple horizontal selector:
+
+Leadership
+Strategy
+Finance
+Operations
+Analysts
+
+Do NOT use large pills.
+
+Use text with small underline or indicator.
+
+---
+
+## Main Panel
+
+One large analytical panel updates according to active role.
+
+Default:
+
+**Leadership**
+
+Show four values:
+
+Strategic priorities
+Risk exposure
+Decision urgency
+Projected outcome
+
+Example:
+
+**03**
+Priority decisions
+
+**Medium**
+Aggregate risk
+
+**02**
+Require attention
+
+**+8.7%**
+Projected opportunity
+
+Use subtle graphs only where useful.
+
+---
+
+## Role Behaviour
+
+When another role is selected, the panel changes.
+
+Finance:
+
+Capital impact
+Margin exposure
+Downside range
+Confidence interval
+
+Operations:
+
+Execution capacity
+Resource constraints
+Operational risk
+Readiness
+
+Analysts:
+
+Evidence sources
+Assumptions
+Signal history
+Model reasoning
+
+Keep the entire section within one visual system.
+
+---
+
+# SECTION 10 — FINAL CTA
+
+Keep this section minimal.
+
+Do NOT suddenly use huge marketing typography.
+
+Small label:
+
+**NEXUS / DECISION INTELLIGENCE**
+
+Heading:
+
+**You already have the data.**
+
+Second line:
+
+**Now know what to do with it.**
+
+The second line can be slightly larger than the first, but it should NOT become an enormous viewport-filling heading.
+
+Supporting text:
+
+Turn changing signals into decisions your team can understand, challenge, and act on.
+
+CTA:
+
+**Enter NEXUS →**
+
+Secondary line:
+
+Decision intelligence for organisations that cannot afford to decide from dashboards alone.
+
+---
+
+# FINAL CTA VISUAL
+
+Use a deep blue atmospheric glow moving subtly behind the section.
+
+Bring back small visual motifs used earlier:
+
+* Radial tick marks.
+* Thin grid lines.
+* Signal points.
+* One directional path.
+
+Do NOT introduce new decorative concepts here.
+
+---
+
+# FOOTER
+
+Keep the footer extremely minimal.
+
+Left:
+
+**NEXUS**
+
+Centre/right:
+
+Product
+Intelligence
+Privacy
+Contact
+
+Small text:
+
+**Concept experience by Quite Okay Work.**
+
+Keep QOW attribution understated.
+
+NEXUS must remain the visual product identity.
+
+---
+
+# IMAGE AND 3D OBJECT RULES
+
+The reference uses physical objects as part of editorial storytelling.
+
+This can be used sparingly.
+
+If adding 3D/AI-generated objects, use abstract intelligence-related forms such as:
+
+* Transparent data blocks.
+* Glass-like geometric objects.
+* Folded metallic structures.
+* Semi-translucent material studies.
+* Dark organic computational forms.
+* Layered analytical objects.
+
+Do NOT use:
+
+* Humans.
+* Robots.
+* AI brains.
+* Cyberpunk heads.
+* Generic globes.
+* Stock photography.
+* Random floating cubes.
+* Decorative objects unrelated to the information.
+
+Objects should appear only where they strengthen the editorial composition.
+
+---
+
+# ICONOGRAPHY
+
+Keep icons extremely minimal.
+
+Use thin-line icons only where necessary.
+
+Preferred:
+
+* Arrow.
+* Plus.
+* Directional marker.
+* Information indicator.
+* Expand.
+* Small status dot.
+
+Do NOT place icons beside every heading.
+
+Do NOT use illustrated feature icons.
+
+---
+
+# MOTION SYSTEM
+
+Motion must remain sophisticated and restrained.
+
+Use:
+
+* Grid-line drawing.
+* Controlled fade/blur reveals.
+* Numerical counting.
+* Radial tick activation.
+* Very slight parallax.
+* Gradual gradient movement.
+* Data-line transformations.
+* Staggered but subtle panel entrances.
+* Scroll-linked signal convergence.
+
+Do NOT use:
+
+* Bounce.
+* Elastic animations.
+* Excessive scale.
+* Flying cards.
+* Constant floating.
+* Dramatic rotations.
+* Fast transitions.
+* Generic fade-up animation on every section.
+
+The page must feel calm.
+
+Motion should communicate intelligence processing.
+
+---
+
+# SECTION TRANSITIONS
+
+Sections must not feel like independent landing-page blocks.
+
+Create continuity.
+
+Signals from the signal section should visually lead into the Intelligence Layer.
+
+The Intelligence Layer should lead naturally into scenario modelling.
+
+Scenario modelling should lead into the Decision Query.
+
+The Decision Query recommendation should lead into Confidence.
+
+Confidence should lead into Decision History.
+
+The entire page should visually explain:
+
+**A decision being formed.**
+
+---
+
+# RESPONSIVE RULES
+
+The website must remain fully designed from approximately 1920px down to 320px.
+
+Do NOT simply stack desktop cards vertically.
+
+On smaller screens:
+
+* Reduce grid complexity.
+* Preserve information hierarchy.
+* Keep important numbers prominent.
+* Simplify radial visualisations.
+* Remove non-essential technical annotations.
+* Preserve thin editorial dividers.
+* Convert wide tables into structured rows.
+* Keep typography restrained.
+* Maintain adequate spacing.
+* Keep decision content readable.
+* Prevent horizontal overflow.
+
+The mobile version must retain the editorial intelligence aesthetic.
+
+---
+
+# STRICT VISUAL RESTRICTIONS
+
+DO NOT make the site look like a typical SaaS template.
+
+DO NOT create oversized hero typography.
+
+DO NOT use giant text as decoration.
+
+DO NOT use a different font size merely to fill empty space.
+
+DO NOT create repeated three-card feature rows.
+
+DO NOT use excessive pills.
+
+DO NOT use excessive border radius.
+
+DO NOT use excessive glassmorphism.
+
+DO NOT use colourful gradient buttons.
+
+DO NOT use purple/pink AI gradients.
+
+DO NOT use neon effects.
+
+DO NOT use random AI particles.
+
+DO NOT use fake network diagrams.
+
+DO NOT use generic dashboards.
+
+DO NOT use meaningless charts.
+
+DO NOT add testimonials.
+
+DO NOT add customer logos.
+
+DO NOT add pricing.
+
+DO NOT add an FAQ.
+
+DO NOT add sections beyond the defined product narrative unless absolutely necessary.
+
+DO NOT introduce content that changes what NEXUS does.
+
+---
+
+# FINAL DESIGN TARGET
+
+The strongest visual inspiration must come from the supplied references.
+
+Capture their underlying design language:
+
+**Reference 01**
+
+* Editorial report composition.
+* Strong grid divisions.
+* Large numerical data when justified.
+* Dark navy and blue atmospheric lighting.
+* Information placed directly into the layout instead of cards.
+* Controlled image/object placement.
+* Tiny technical labels.
+* Clean data tables.
+
+**Reference 02**
+
+* Near-black environment.
+* Fine outlines.
+* Moderate typography.
+* Radial percentage graphics.
+* Asymmetric data blocks.
+* Subtle olive/blue illumination.
+* Minimal navigation.
+* Large areas of intentional negative space.
+* Premium experimental feel.
+
+Combine those ideas into an original identity for NEXUS.
+
+The final website must feel like:
+
+**An intelligence report that became an interactive digital product.**
+
+Not:
+
+**A SaaS landing page decorated with charts.**
