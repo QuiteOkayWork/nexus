@@ -33,6 +33,7 @@ $sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 html {
+  overflow-x: clip;
   background: $bg;
   color: $text;
   scroll-behavior: auto;

@@ -3,6 +3,7 @@
 }
 
 html {
+  overflow-x: clip;
   background: #05080d;
   color: #e8edf1;
   scroll-behavior: auto;
